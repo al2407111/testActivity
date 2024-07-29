@@ -7,6 +7,8 @@ class MainActivity : AppCompatActivity() {  companion object {
     const val SEARCH_EDIT_TEXT = "SEARCH_EDIT_TEXT"
     const val SEARCH_EDIT_TEXT_RETAIN = ""
     const val SEARCH_EDIT_TEXT_RETAIN3 = ""
+    const val SEARCH_EDIT_TEXT_RETAIN4 = ""
+    const val SEARCH_EDIT_TEXT_RETAI = ""
 }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
