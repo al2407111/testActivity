@@ -1,7 +1,8 @@
-package com.example.testactivity
+package com.example.testactivity.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.testactivity.R
 
 class MainActivity : AppCompatActivity() {  companion object {
     const val SEARCH_EDIT_TEXT = "SEARCH_EDIT_TEXT"
@@ -13,5 +14,6 @@ class MainActivity : AppCompatActivity() {  companion object {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        }
     }
-}
