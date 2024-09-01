@@ -1,112 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     android:orientation="vertical"
-    tools:context=".presentation.MainActivity">
+    tools:context=".MainActivity">
 
-    <ImageButton
+    <EditText
+        android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-android:src="@drawable/ic_icon"
-android:background="@android:color/transparent"
- android:layout_marginStart="24dp"
-        android:layout_marginTop="10dp"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-      android:layout_marginHorizontal="33dp"
-            android:layout_marginTop="86dp"
-           android:text="Galaxy"
-            android:textSize="50dp"
-            tools:text="Galaxy"/>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="33dp"
-                android:layout_marginTop="80dp"
-                android:orientation="vertical">
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="70dp"
-android:background="@drawable/shape2"
-                    android:gravity="center_vertical"
-                    android:orientation="horizontal">
-                    <TextView
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
-                        android:textSize="16sp"
-                        android:gravity="center"
-                        android:layout_marginStart="12dp"
-                        android:background="@drawable/shape"
-                        android:text="1"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-android:text="Сломать"/>
-            </LinearLayout>
-                <LinearLayout
-                    android:layout_marginTop="18dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="70dp"
-                    android:background="@drawable/shape2"
-                    android:gravity="center_vertical"
-                    android:orientation="horizontal">
-                    <TextView
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
-                        android:textSize="16sp"
-                        android:gravity="center"
-                        android:layout_marginStart="12dp"
-                        android:background="@drawable/shape"
-                        android:text="1"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Сломать"/>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_marginTop="18dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="70dp"
-                    android:background="@drawable/shape2"
-                    android:gravity="center_vertical"
-                    android:orientation="horizontal">
-                    <TextView
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
-                        android:textSize="16sp"
-                        android:gravity="center"
-                        android:layout_marginStart="12dp"
-                        android:background="@drawable/shape"
-                        android:text="1"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Сломать"/>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_marginTop="18dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="70dp"
-                    android:background="@drawable/shape2"
-                    android:gravity="center_vertical"
-                    android:orientation="horizontal">
-                    <TextView
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
-                        android:textSize="16sp"
-                        android:gravity="center"
-                        android:layout_marginStart="12dp"
-                        android:background="@drawable/shape"
-                        android:text="1"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Сломать"/>
-                </LinearLayout>
-</LinearLayout>
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        android:windowSoftInputMode="stateHidden"
+        android:hint="Введите текст..." />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/syncButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Restore"/>
+
+    <EditText
+        android:id="@+id/subjectEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Введите текст..." />
+
 </LinearLayout>
